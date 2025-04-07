@@ -13,14 +13,14 @@ Este projeto tem como objetivo realizar a predição dos movimentos do Nasdaq-10
 
 
 ### 1. Dataset de Títulos de Notícia do Twitter
-- **Arquivo:** `twitter_financial_news/sent_train.csv`
+- **Arquivo:** `datasets/twitter_financial_news/sent_train.csv`
 - **Descrição:** Contém títulos de notícias financeiras obtidas a partir do Twitter, que serão utilizados para realizar a análise de sentimentos.
 - **Colunas:**
   - **text:** Conteúdo textual do título da notícia.
   - **label:** Rótulo de sentimento associado ao tweet (Bullish, Bearish, Neutral).
 
 ### 2. Dataset do Nasdaq-100
-- **Arquivo:** `NASDAQ_100_Data_From_2010.csv`
+- **Arquivo:** `datasets/NASDAQ_100_Data_From_2010.csv`
 - **Descrição:** Contém os dados históricos do Nasdaq-100 desde 2010, utilizados para análise de séries temporais e predição do índice.
 - **Colunas:**
   - **Date:** Data da observação (formato `yyyy-mm-dd`).
@@ -61,3 +61,12 @@ Este projeto tem como objetivo realizar a predição dos movimentos do Nasdaq-10
    - Visualização das distribuições dos dados.
    - Identificação de correlações e padrões entre variáveis.
 
+
+---
+
+## Link dos datasets:
+
+- https://huggingface.co/datasets/zeroshot/twitter-financial-news-sentiment
+- https://www.kaggle.com/datasets/kalilurrahman/nasdaq100-stock-price-data
+
+---
